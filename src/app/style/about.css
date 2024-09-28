@@ -1,0 +1,48 @@
+.about-section {
+    margin-top: 200px;
+  }
+  
+  @media (max-width: 640px) {
+    .about-section {
+      margin-top: 50%;
+    }
+  }
+  
+  .about-heading {
+    font-size: 2.5rem; /* equivalent to text-4xl */
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about-description {
+    color: white;
+    font-size: 1.25rem; /* equivalent to text-xl */
+    text-align: center;
+    padding: 0 5rem; /* equivalent to px-20 */
+    font-family: serif;
+  }
+  
+  .about-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  @media (min-width: 640px) {
+    .about-info {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  
+  .about-info article {
+    margin-bottom: 10px;
+  }
+  
+  .about-info h5 span {
+    font-weight: bold;
+  }
+  
