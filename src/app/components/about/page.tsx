@@ -11,7 +11,7 @@ const About = () => {
     <p className="about-description">
       I am passionate about pursuing a career in <span>Cloud Computing and <br />Artificial intelligence (AI)</span> technologies. 
       I have a strong foundation in <span>HTML, CSS, JavaScript, Typescript, Tailwind CSS, NodeJs</span> and <span>NetxJs</span> and 
-      I'm continuously expanding my knowledge and skills in these areas.I am Enthusiastic about 
+      I&apos;m continuously expanding my knowledge and skills in these areas.I am Enthusiastic about 
       <span>Cloud Engineering & GenAI </span> exploring and mastering various cloud services and solutions.
     </p>
     <div className="about-info">

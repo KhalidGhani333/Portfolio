@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import About from './components/about/page'
 import Navbar from './components/navbar/page'
 import Hero from './components/hero/page'
