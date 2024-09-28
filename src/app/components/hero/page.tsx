@@ -1,6 +1,5 @@
 "use client"
 import React from 'react';
-//import { MdOutlineFileDownload } from "react-icons/md";
 import Typewriter from 'typewriter-effect';
 import Image from 'next/image';
 import profilepic from "../../../../public/myPic.png";
@@ -30,7 +29,7 @@ const Hero = () => {
 
           <div className="buttons-container">
             <a href="./myCv.pdf" target='_blank' className="download-cv-btn">
-              Download CV <i className="fa-solid fa-download"></i>
+              Download CV 
             </a>
             <a href="https://www.linkedin.com/in/khalid-ghani-1a5a45272/" target='_blank' className="linkedin-btn">
               LinkedIn

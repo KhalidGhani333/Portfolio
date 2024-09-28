@@ -25,7 +25,7 @@ const About = () => {
       </article>
       <article>
         <h5><span>GitHub</span></h5>
-        <a href="https://github.com/KhalidGhani333" target="_blank">https://github.com/KhalidGhani333</a>
+        <p><a href="https://github.com/KhalidGhani333" target="_blank">https://github.com/KhalidGhani333</a></p>
       </article>
       <article>
         <h5><span>Phone</span></h5>
