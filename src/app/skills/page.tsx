@@ -5,7 +5,7 @@
 import React from "react";
 
 import "../style/skills.css"
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJsSquare } from "react-icons/fa";
 import { SiTypescript, SiNextdotjs, SiTailwindcss, SiFigma } from "react-icons/si";
 import "aos/dist/aos.css";
 
