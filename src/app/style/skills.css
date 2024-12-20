@@ -1,34 +1,112 @@
-.skills-section {
-    margin-top: 150px;
-  }
-  
-  .skills-heading {
-    color: white;
-    text-align: center;
-    font-size: 36px;
-  }
-  
+.skills-container {
+  background-color: #1a202c;
+  height: 100%;
+  color: white;
+  padding: 5rem 1.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: linear-gradient(to right, #38b2ac, #4299e1, #805ad5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 3rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+@media (min-width: 640px) {
   .skills-grid {
-    display: grid;
-    justify-items: center;
-    margin-top: 50px;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
   }
-  
-  .skill-card {
-    color: #3b82f6;
-    background-color: #0f172a;
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    border-radius: 8px;
-    width: 180px;
-    transition: border-color 0.3s ease;
-    border-bottom: 4px solid transparent;
+}
+
+@media (min-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
   }
-  
-  .skill-card:hover {
-    border-color: #3b82f6;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: #2d3748;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.skill-icon {
+  font-size: 3rem;
+  transition: transform 0.3s;
+}
+
+.skill-card:hover .skill-icon {
+  animation: bounce 1s infinite;
+}
+
+.skill-name {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #a0aec0;
+  transition: color 0.3s;
+}
+
+.skill-card:hover .skill-name {
+  color: #38b2ac;
+}
+
+.html-icon {
+  color: #e34c26;
+}
+
+.css-icon {
+  color: #2965f1;
+}
+
+.js-icon {
+  color: #f7df1e;
+}
+
+.ts-icon {
+  color: #007acc;
+}
+
+.next-icon {
+  color: #e2e8f0;
+}
+
+.tailwind-icon {
+  color: #38b2ac;
+}
+
+.figma-icon {
+  color: #a259ff;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
   }
-  
+  50% {
+    transform: translateY(-10px);
+  }
+}

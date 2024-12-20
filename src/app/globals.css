@@ -1,10 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'aos/dist/aos.css';
+
 
 body{
-    background-color: rgb(26, 24, 24)
+    background-color: rgb(28, 49, 68);
 }
 span{
     color: #1e90ff;
 }
+
+

@@ -1,25 +1,19 @@
 import React from 'react'
-import About from './components/about/page'
-import Navbar from './components/navbar/page'
-import Hero from './components/hero/page'
-import Skills from './components/skills/page'
-import Project from './components/projects/page'
-import Contact from './components/contact/page'
+import About from './about/page'
+import Hero from './hero/page'
+import Skills from './skills/page'
+import Project from './projects/page'
+import Contact from './contact/page'
 
 const Home = () => {
   return (
     <div>
-      <Navbar/>
       <Hero/>
       <About/>
       <Skills/>
       <Project/>
       <Contact/>
       
-      
-      
-
-    
     </div>
   )
 }
